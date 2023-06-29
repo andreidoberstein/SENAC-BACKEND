@@ -1,21 +1,21 @@
 "use strict";
-var gender;
-(function (gender) {
-    gender["ACAO"] = "a\u00E7\u00E3o";
-    gender["DRAMA"] = "drama";
-    gender["COMEDIA"] = "com\u00E9dia";
-    gender["ROMANCE"] = "romance";
-    gender["TERROR"] = "terror";
-})(gender || (gender = {}));
-function getFilm(name, year, gender, pontuation) {
-    const film = {
+var genre;
+(function (genre) {
+    genre["action"] = "a\u00E7\u00E3o";
+    genre["drama"] = "drama";
+    genre["comedy"] = "com\u00E9dia";
+    genre["romance"] = "romance";
+    genre["terror"] = "terror";
+})(genre || (genre = {}));
+function getFilm(name, year, genre, pontuation) {
+    let film1 = {
         name: name,
         year: year,
-        gender: gender,
-        pontuation: pontuation ? pontuation : 0
+        genre: genre,
+        pontuation: pontuation ? pontuation : 0,
     };
-    let hasPontuation = pontuation ? `| Pontuação: ${film.pontuation}` : '';
-    return `Nome: ${film.name} | Ano: ${film.year} | Genero: ${film.gender} ${hasPontuation}`;
+    let hasPontuation = pontuation ? `| Pontuação: ${film1.pontuation}` : '';
+    return `Nome: ${film1.name} | Ano: ${film1.year} | Genero: ${film1.genre} ${hasPontuation}`;
 }
-console.log(getFilm('GOT', 2012, gender.ACAO, 70));
+console.log(getFilm('GAme of thrones', 2010, genre.romance, 99));
 //# sourceMappingURL=exercicio10.js.map
