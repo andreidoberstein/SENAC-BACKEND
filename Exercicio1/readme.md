@@ -42,8 +42,8 @@ Alterações no arquivo tsconfig
 Gerar arquivo package.json (gerenciador de dependencias)
 # npm init -y
 
-# Adicionar script no package.json
-"start": "npx tsc && node ./build/index.js"
+Adicionar script no package.json
+# "start": "npx tsc && node ./build/index.js"
 
 Executar o projeto
 # npm start
