@@ -57,4 +57,4 @@ function validateCpf(cpf: string): boolean {
   return true
 }
 
-console.log(validateCpf('027.834.200-07'))
+console.log(validateCpf('028.834.200-08'))
