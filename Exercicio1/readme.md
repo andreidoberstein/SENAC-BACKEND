@@ -19,13 +19,13 @@ Executar código no console (se o terminal estiver na mesma pasta do arquivo ind
 # 2. Configurando estrutura para rodar um projeto
 
 
-# Criar pastas
-./src
-./build
+Criar pastas
+# ./src
+# ./build
 
-# Mover arquivos
-index.ts -> src (arquivos typescript)
-index.js -> build (arquivos javascript)
+Mover arquivos
+# index.ts -> src (arquivos typescript)
+# index.js -> build (arquivos javascript)
 
 Criar arquivo de configuração do typescript
 # npx tsc --init
