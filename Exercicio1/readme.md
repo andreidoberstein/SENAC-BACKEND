@@ -1,7 +1,9 @@
-# 1. Executar arquivo typescript
+## 1. Executar arquivo typescript
 
 Verificar versão do node
-# node -v
+```bash
+node -v
+```
 
 Instalar o TypeScript
 # npm i -g typescript
