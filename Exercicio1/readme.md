@@ -5,6 +5,11 @@ Verificar versão do node
 node -v
 ```
 
+Gerar arquivo package.json (gerenciador de dependencias)
+```bash
+npm init -y
+```
+
 Instalar o TypeScript
 ```bash
 npm i -g typescript
@@ -56,10 +61,6 @@ Alterações no arquivo tsconfig
 "noImplicitAny": true,
 ```
 
-Gerar arquivo package.json (gerenciador de dependencias)
-```bash
-npm init -y
-```
 Adicionar script no package.json
 ```bash
 "start": "npx tsc && node ./build/index.js"
