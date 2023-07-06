@@ -36,8 +36,8 @@ Criar pastas
 
 Mover arquivos
 ```bash
-index.ts -> src / mv index.ts ./src (arquivos typescript)
-index.js -> build / mv index.js ./build (arquivos javascript)
+index.ts -> src || mv index.ts ./src (arquivos typescript)
+index.js -> build || mv index.js ./build (arquivos javascript)
 ```
 
 Criar arquivo de configuração do typescript
