@@ -1,8 +1,7 @@
+# 1. Executar arquivo typescript
+
 Verificar versão do node
 # node -v
-
-Gerar arquivo package.json (gerenciador de dependencias)
-# npm init -y
 
 Instalar o TypeScript
 # npm i -g typescript
@@ -17,7 +16,7 @@ Executar código no console (se o terminal estiver na mesma pasta do arquivo ind
 # node index.js
 
 
-# Configurando estrutura para rodar um projeto
+# 2. Configurando estrutura para rodar um projeto
 
 
 # Criar pastas
@@ -39,6 +38,9 @@ Alterações no arquivo tsconfig
 # "rootDir": "./src",
 # "removeComments": true,
 # "noImplicitAny": true,
+
+Gerar arquivo package.json (gerenciador de dependencias)
+# npm init -y
 
 # Adicionar script no package.json
 "start": "npx tsc && node ./build/index.js"
