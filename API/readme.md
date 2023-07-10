@@ -31,6 +31,7 @@ Instalar o módulos dos types e ts-node para compilar o projeto
 ```
 npm add @types/node typescript
 ```
+```
 npm add -D ts-node
 ```
 
