@@ -1,6 +1,6 @@
 # Configuração para criar API com NodeJS
 
-**Preparando ambiente**
+## Preparando ambiente
 
 Verifica versão do node
 ```
