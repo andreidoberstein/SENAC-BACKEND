@@ -115,11 +115,6 @@ Fechar arquivo server.ts
 Ctrl + X
 ```
 
-Criar pasta build na raiz do projeto
-```
-mkdir build
-```
-
 Adicionar script no arquivo package.json
 ```
 "dev": "nodemon --exec ts-node src/server.ts"
