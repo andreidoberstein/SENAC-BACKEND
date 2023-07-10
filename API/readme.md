@@ -1,6 +1,6 @@
 # Configuração para criar API com NodeJS 💻
 
-## Preparando ambiente
+## Preparando ambiente básico
 
 Verifica versão do node
 ```
@@ -120,7 +120,8 @@ Adicionar script no arquivo package.json
 "dev": "npx tsc && node ./build/server.js"
 ```
 
-**Estrutura de pastas**
+# Estrutura de pastas
+```
 ├── primeiraApi
 │   ├── build
 │   │   ├── server.js
@@ -132,3 +133,4 @@ Adicionar script no arquivo package.json
 │   ├── package-lock.json
 │   ├── package.json
 │   └── tsconfig.json
+```
