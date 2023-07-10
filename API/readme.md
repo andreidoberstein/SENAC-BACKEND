@@ -1,6 +1,6 @@
-# Configuração para criar API com NodeJS
+# Configuração para criar API com NodeJS 💻
 
-## Preparando ambiente
+## Preparando ambiente básico
 
 Verifica versão do node
 ```
@@ -12,7 +12,9 @@ Gerar arquivo de configuração geral do projeto package.json (gerenciador de de
 npm init -y
 ```
 Criar arquivo de configuração do typescript
+```
 tsc --init
+```
 
 Alterar configurações no arquivo tsconfig.json
 ```
@@ -127,7 +129,8 @@ Rodar comando no terminal
 npm run dev
 ```
 
-**Estrutura de pastas**
+# Estrutura de pastas
+```
 ├── primeiraApi
 │   ├── build
 │   │   ├── server.js
@@ -139,3 +142,4 @@ npm run dev
 │   ├── package-lock.json
 │   ├── package.json
 │   └── tsconfig.json
+```
