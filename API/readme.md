@@ -1,4 +1,6 @@
-**Preparando ambiente para criar API com nodeJS**
+# Configuração para criar API com NodeJS
+
+**Preparando ambiente**
 
 Verifica versão do node
 ```
@@ -24,7 +26,9 @@ Alterar configurações no arquivo tsconfig.json
 ```
 
 Instalar o módulos dos types e ts-node para compilar o projeto
+```
 npm add @types/node typescript && add -D ts-node
+```
 
 Instalar o pacote express para implementar servidor web
 ```
