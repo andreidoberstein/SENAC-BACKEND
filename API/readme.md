@@ -1,4 +1,4 @@
-# Configuração para criar API com NodeJS
+# Configuração para criar API com NodeJS 💻
 
 ## Preparando ambiente
 
