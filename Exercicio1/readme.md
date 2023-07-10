@@ -1,4 +1,4 @@
-## 1. Executar arquivo typescript
+# 1. Executar arquivo typescript
 
 Verificar versão do node
 ```bash
