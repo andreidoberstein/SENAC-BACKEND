@@ -12,7 +12,9 @@ Gerar arquivo de configuração geral do projeto package.json (gerenciador de de
 npm init -y
 ```
 Criar arquivo de configuração do typescript
+```
 tsc --init
+```
 
 Alterar configurações no arquivo tsconfig.json
 ```
