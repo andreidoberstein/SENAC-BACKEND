@@ -13,7 +13,7 @@ npm init -y
 ```
 Criar arquivo de configuração do typescript
 ```
-tsc --init
+npx tsc --init
 ```
 
 Alterar configurações no arquivo tsconfig.json
