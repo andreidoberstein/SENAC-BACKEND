@@ -8,6 +8,10 @@ npm i typescript nodemon ts-node dotenv express
 ```
 
 ```
+npm i --save-dev @types/express
+```
+
+```
 nano .gitignore
 ```
 ```
@@ -43,7 +47,7 @@ nano src/server.ts
 
  const app = express();
 
- app.listen(process.env.PORT, () console.log(`Running on port ${PORT}!`);
+ app.listen(process.env.PORT, () => console.log(`Running on port ${PORT}!`));
 ```
 
 ```
