@@ -1,4 +1,4 @@
-/**/
+```
 create table clients_ecommerce(
   id_client int not null auto_increment,
   ds_name varchar(255),
@@ -7,7 +7,8 @@ create table clients_ecommerce(
   dt_created_at datetime default CURRENT_TIMESTAMP,
   primary key(id_client)
 );
-
+```
+```
 create table products (
   id_product int not null auto_increment,
   ds_name varchar(120) not null,
@@ -18,7 +19,8 @@ create table products (
   dt_created_at datetime default CURRENT_TIMESTAMP,
   primary key (id_product)
 );
-
+```
+```
 create table cart (
   id_cart int not null auto_increment,
   id_client int,
@@ -27,3 +29,4 @@ create table cart (
   foreign key(id_client) references clients_ecommerce(id_client),
   foreign key(id_product) references products(id_product)
 );
+```
